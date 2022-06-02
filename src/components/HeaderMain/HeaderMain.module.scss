@@ -1,0 +1,80 @@
+header {
+    background-color: #2F3644;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1100px;
+    margin: 0 auto;
+
+    height: 100px;
+}
+
+.logo h1 {
+    font-family: Heebo;
+    color: #29EBAA;
+
+    cursor: pointer;
+}
+
+.btnnewPost button{
+    font-family: Heebo;
+    font-weight: 700;
+    margin: 10px;
+    background-color: #447CE2;
+    border: 0;
+
+    color: #fff;
+
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.btn-newPost button:hover {
+    transition: 0.2s;
+    background-color: #538af0;
+}
+
+@media all and (max-width: 730px) {
+    .btnnewPost button{
+        font-family: Heebo;
+        font-weight: 700;
+        margin: 2px;
+        background-color: #447CE2;
+        border: 0;
+    
+        color: #fff;
+    
+        padding: 10px 5px;
+        border-radius: 10px;
+    
+        cursor: pointer;
+    }
+}
+@media all and (max-width: 480px) {
+    .btnnewPost button{
+        font-family: Heebo;
+        font-weight: 700;
+        margin: 2px;
+        background-color: #447CE2;
+        border: 0;
+    
+        color: #fff;
+    
+        padding: 10px 5px;
+        border-radius: 10px;
+    
+        cursor: pointer;
+    }
+    .logo h1 {
+        font-family: Heebo;
+        color: #29EBAA;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
