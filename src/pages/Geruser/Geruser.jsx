@@ -20,7 +20,7 @@ export default function Geruser() {
   }, []);
 
   function deletePost(id){
-      axios.delete(`http://localhost:3333/users/${id}`)
+      axios.delete(`/users/${id}`)
 
       setUser(user.filter(user=>user.id !== id));
   }
